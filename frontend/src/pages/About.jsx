@@ -1,10 +1,10 @@
 import { FaGithub, FaUtensils, FaBrain, FaCode, FaDatabase, FaRocket } from "react-icons/fa";
 
 const TEAM = [
-  { name: "Saksham Varshney",   role: "ML Engineer",       emoji: "🧠", color: "from-purple-500 to-indigo-600" },
+  { name: "Saksham Varshney",   role: "Frontend Developer", emoji: "🎨", color: "from-purple-500 to-indigo-600" },
   { name: "Suraj Kumar Gupta",  role: "Backend Developer",  emoji: "⚙️",  color: "from-blue-500 to-cyan-600"   },
-  { name: "Singh Krishnaraj",   role: "Frontend Developer", emoji: "🎨", color: "from-orange-500 to-red-600"   },
-  { name: "Siddhartha Tiwari",  role: "Full Stack & Data",  emoji: "🚀", color: "from-green-500 to-teal-600"   },
+  { name: "Singh Krishnaraj",   role: "Documentation Designer", emoji: "🖊️", color: "from-orange-500 to-red-600"   },
+  { name: "Siddhartha Tiwari",  role: "Documentation Designer",  emoji: "🖊️", color: "from-green-500 to-teal-600"   },
 ];
 
 const TECH = [
@@ -21,7 +21,7 @@ const FEATURES = [
   { emoji: "🟡", title: "Missing Ingredients",  desc: "Each card shows you exactly which ingredients you're missing so you can shop smart." },
   { emoji: "🛒", title: "Grocery List",         desc: "Add missing ingredients from any recipe to your grocery list with one click. Print or save it." },
   { emoji: "➕", title: "Custom Recipes",       desc: "Add your own recipes to the database. They appear in search results and your personal library." },
-  { emoji: "📺", title: "Video Links",          desc: "Cards link directly to YouTube tutorials and full recipe websites." },
+  { emoji: "🌐", title: "Articles",             desc: "Cards link directly to Web tutorials and full recipe websites." },
   { emoji: "📋", title: "Step-by-Step",         desc: "Every recipe shows numbered cooking steps in a clean, readable accordion." },
 ];
 
@@ -144,7 +144,7 @@ export default function About() {
 
           <div className="text-center mt-14">
             <p className="text-gray-500 text-xs">
-              Built with ❤️ as an academic project · IngrediChef © 2025
+              Built with ❤️ as an academic project · IngrediChef © 2026
             </p>
           </div>
         </section>

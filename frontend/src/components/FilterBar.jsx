@@ -1,7 +1,7 @@
 import { FaFilter, FaTimes } from "react-icons/fa";
 import { useState } from "react";
 
-const DIETS    = ["Vegetarian", "Non Vegeterian", "Vegan"];
+const DIETS    = ["Vegetarian", "Non Vegetarian", "Vegan"];
 const COURSES  = ["Main Course", "Side Dish", "Dessert", "Snack", "Breakfast", "Lunch", "Dinner"];
 const TIMES    = [{ label: "≤ 15 min", val: "15" }, { label: "≤ 30 min", val: "30" }, { label: "≤ 60 min", val: "60" }, { label: "≤ 90 min", val: "90" }];
 const SERVINGS = ["1", "2", "3", "4", "5", "6"];

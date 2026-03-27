@@ -3,14 +3,14 @@ import { fetchOgImage } from "../Api/recipeApi";
 
 // Course → fallback Unsplash photo (reliable, no API key needed)
 const FALLBACKS = {
-  "main course":  "https://images.unsplash.com/photo-1547592180-85f173990554?w=600&q=80",
-  "side dish":    "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=600&q=80",
-  "dessert":      "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=600&q=80",
-  "snack":        "https://images.unsplash.com/photo-1599490659213-e2b9527bd087?w=600&q=80",
-  "breakfast":    "https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?w=600&q=80",
-  "lunch":        "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=600&q=80",
-  "dinner":       "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=600&q=80",
-  default:        "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=600&q=80",
+  "main course": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?w=600&q=80",
+  "side dish": "https://images.unsplash.com/photo-1626500155537-93690c24099e?w=600&q=80",
+  "dessert": "https://th.bing.com/th/id/R.c4558e0299e6795c00f07e4b88aa356b?rik=TjCwSB%2fuYgAYqg&riu=http%3a%2f%2fi.huffpost.com%2fgen%2f2070420%2fthumbs%2fo-INDIAN-DESSERT-facebook.jpg&ehk=Ktu11n6IYiK1cP4pNh0tqOwsRBEoE1FKOjB9GSceFa8%3d&risl=&pid=ImgRaw&r=0",
+  "snack": "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=600&q=80",
+  "breakfast": "https://images.unsplash.com/photo-1630383249896-424e482df921?w=600&q=80",
+  "lunch": "https://tse2.mm.bing.net/th/id/OIP.VHQoBEHakdG03pfAF1g5kQHaHa?rs=1&pid=ImgDetMain&o=7&rm=3",
+  "dinner": "https://www.shutterstock.com/shutterstock/photos/1372403591/display_1500/stock-photo-delicious-spicy-chicken-biryani-in-white-bowl-on-white-background-indian-or-pakistani-ramzan-food-1372403591.jpg",
+  default: "https://www.authenticindiatours.com/app/uploads/2024/10/Indian-Vegetables-1400-collage-1400x550-c-default.jpg",
 };
 
 function getFallback(course) {

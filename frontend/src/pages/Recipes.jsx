@@ -96,7 +96,7 @@ export default function Recipes() {
                 className={INPUT + " cursor-pointer"}>
                 <option value="">Select course</option>
                 {["Main Course","Side Dish","Dessert","Snack","Breakfast","Lunch","Dinner"].map(c =>
-                  <option key={c} value={c}>{c}</option>)}
+                  <option key={c} value={c} className="bg-gray-900 text-white">{c}</option>)}
               </select>
             </div>
             <div>
@@ -104,7 +104,7 @@ export default function Recipes() {
               <select name="diet" value={form.diet} onChange={handleChange}
                 className={INPUT + " cursor-pointer"}>
                 {["Vegetarian","Non Vegeterian","Vegan"].map(d =>
-                  <option key={d} value={d}>{d}</option>)}
+                  <option key={d} value={d} className="bg-gray-900 text-white" >{d} </option>)}
               </select>
             </div>
             <div>
